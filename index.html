@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Study Pad</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="main-layout">
+    <div id="old-notes">
+      <!-- old notes go here -->
+    </div>
+
+    <div id="note-area">
+      <div id="note-container">
+        <h1 id="header">Note 1</h1>
+
+        <form>
+          <textarea id="notes" placeholder="Start writing your notes..."></textarea>
+
+          <div id="button-row">
+            <button id="save-btn" type="submit">Save</button>
+            <button id="new-note" type="button">New Note</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="timer-container">
+        <button id="timer-toggle">Start Timer</button><p id="time">30:00</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
